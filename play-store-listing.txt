@@ -1,0 +1,47 @@
+ARROW SHIFT — PLAY STORE LISTING
+==================================
+
+APP NAME
+Arrow Shift
+
+DEVELOPER
+Alien X Software
+
+PACKAGE NAME
+com.alienx.arrowshift
+
+CATEGORY
+Puzzle / Casual
+
+SHORT DESCRIPTION (max 80 chars)
+Slide arrows out of the grid in this satisfying casual puzzle game.
+
+FULL DESCRIPTION
+Welcome to Arrow Shift — a relaxing but challenging arrow puzzle game where every tap matters.
+
+Guide arrows off the board in the right order, avoid blocked moves, and conquer 500 levels of increasing difficulty. From small starter grids to massive boss and god-tier challenges, Arrow Shift keeps your brain engaged with clean visuals and smooth one-finger controls.
+
+FEATURES
+• 500 puzzle levels
+• Boss and god challenge tiers
+• 3 lives on every fresh level
+• Hint system for tough boards
+• In-game shop with arrow styles
+• Light and dark theme
+• Resume mid-level progress
+• Pinch to zoom on large grids
+• Offline-friendly local save
+
+How to play:
+Tap an arrow to slide it out of the grid. If its path is blocked, you lose a life. Clear every arrow to complete the level and earn stars.
+
+Developed by Alien X Software.
+
+WEBSITE
+https://gxdevs.blogspot.com/p/arrow-shift.html
+
+PRIVACY POLICY URL
+https://gxdevs.blogspot.com/p/arrow-shift-privacy-policy.html
+
+CONTACT
+Use Google Play developer contact email in Play Console.
