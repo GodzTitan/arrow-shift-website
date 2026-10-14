@@ -8,6 +8,7 @@ Static website for Google Play Console (website URL + privacy policy URL).
 |------|-----|
 | `index.html` | App landing page / Play Console website URL |
 | `privacy-policy.html` | Required privacy policy URL |
+| `app-ads.txt` | AdMob authorized sellers (Play / AdSense verification) |
 | `assets/logo.png` | App logo |
 | `styles.css` | Shared styling |
 | `play-store-listing.txt` | Copy-paste text for Play Console listing |
@@ -30,10 +31,13 @@ open website/index.html
    - Paste contents of `privacy-policy.html`
 4. Publish both pages and copy the public URLs
 
-Suggested final URLs (update in app after publishing):
+Suggested live URLs (published on Cloudflare Pages):
 
-- Home: `https://gxdevs.blogspot.com/p/arrow-shift.html`
-- Privacy: `https://gxdevs.blogspot.com/p/arrow-shift-privacy-policy.html`
+- Home: `https://arrow-shift.pages.dev/`
+- Privacy: `https://arrow-shift.pages.dev/privacy-policy.html`
+- Delete Account / Data: `https://arrow-shift.pages.dev/delete-account.html`
+- app-ads.txt: `https://arrow-shift.pages.dev/app-ads.txt`
+- GitHub mirror: `https://github.com/GodzTitan/arrow-shift-website`
 
 ## Play Console fields
 
@@ -42,8 +46,9 @@ Suggested final URLs (update in app after publishing):
 | App name | Arrow Shift |
 | Package | com.alienx.arrowshift |
 | Developer | Alien X Software |
-| Website | Your published `index.html` URL |
-| Privacy policy | Your published `privacy-policy.html` URL |
+| Website | `https://arrow-shift.pages.dev/` |
+| Privacy policy | `https://arrow-shift.pages.dev/privacy-policy.html` |
+| Account / Data deletion URL | `https://arrow-shift.pages.dev/delete-account.html` |
 
 ## GitHub Pages (optional)
 

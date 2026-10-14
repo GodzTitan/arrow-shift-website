@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account & Data Deletion — Arrow Shift | Alien X Software</title>
+  <meta name="description" content="Request deletion of your Arrow Shift account and associated gameplay data. Compliant with Google Play data safety standards.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="Arrow Shift logo">
+        <strong>Arrow Shift</strong>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="privacy-policy.html">Privacy</a>
+        <a href="delete-account.html">Delete Account</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="policy">
+    <div class="container">
+      <span class="eyebrow">Google Play Data Safety</span>
+      <h1>Account & Data Deletion Request</h1>
+      <p><strong>Effective date:</strong> October 2026</p>
+      <p>
+        Alien X Software is committed to respecting your privacy and giving you full control over your data.
+        In compliance with Google Play's Account Deletion and Data Safety policies, this page provides
+        clear instructions on how you can request the permanent deletion of your <strong>Arrow Shift</strong>
+        account and all associated cloud data.
+      </p>
+
+      <div class="card" style="margin: 24px 0; border-left: 4px solid var(--red);">
+        <p><strong>App Information:</strong></p>
+        <p>• <strong>App Name:</strong> Arrow Shift</p>
+        <p>• <strong>Package Name:</strong> <code>com.alienx.arrowshift</code></p>
+        <p>• <strong>Developer:</strong> Alien X Software</p>
+        <p>• <strong>Support Email:</strong> <a href="mailto:support@alienxsoftware.com">support@alienxsoftware.com</a></p>
+      </div>
+
+      <h2>How to Request Account & Data Deletion</h2>
+      <p>You can request account and data deletion through either of the following methods:</p>
+
+      <h3>Method 1: Email Request (Web / External)</h3>
+      <p>
+        You can submit a deletion request via email directly to our support team:
+      </p>
+      <ol>
+        <li>Open <strong>Arrow Shift</strong> on your device and navigate to <strong>Settings</strong>.</li>
+        <li>Under <strong>Cloud & Profile</strong>, locate your <strong>User UID</strong> and copy it.</li>
+        <li>Send an email to <strong><a href="mailto:support@alienxsoftware.com">support@alienxsoftware.com</a></strong> with:
+          <ul>
+            <li><strong>Subject:</strong> <code>Arrow Shift Account and Data Deletion Request</code></li>
+            <li><strong>Body:</strong> Include your <strong>User UID</strong> and a brief statement requesting deletion of your account and game data.</li>
+          </ul>
+        </li>
+      </ol>
+
+      <div class="card" style="margin: 20px 0; background: var(--blue-soft);">
+        <h3 style="margin-top: 0;">Quick Email Generator</h3>
+        <p style="margin-bottom: 12px;">Enter your User UID below to generate a pre-filled deletion request email:</p>
+        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+          <input 
+            type="text" 
+            id="uidInput" 
+            placeholder="Paste your User UID here (optional)" 
+            style="flex: 1; min-width: 240px; padding: 12px 16px; border: 1px solid var(--line); border-radius: 12px; font-family: inherit; font-size: 0.95rem;"
+          >
+          <button 
+            type="button" 
+            class="btn btn-primary" 
+            onclick="sendDeletionEmail()"
+          >
+            Send Deletion Request Email
+          </button>
+        </div>
+      </div>
+
+      <h3>Method 2: In-App Reset & Deletion</h3>
+      <p>
+        If you have the app installed, you can also delete your local data immediately:
+      </p>
+      <ul>
+        <li>Open <strong>Arrow Shift</strong> → tap the <strong>Settings</strong> icon.</li>
+        <li>Tap <strong>Delete Account & Data</strong> under the Cloud & Profile section.</li>
+        <li>Confirm the prompt. This clears your local game progress, coin balances, unlocked themes, and revokes local tokens.</li>
+        <li>Uninstalling the app will also immediately remove all locally cached gameplay data from your device.</li>
+      </ul>
+
+      <h2>What Data Will Be Deleted?</h2>
+      <p>When an account and data deletion request is processed, we permanently delete:</p>
+      <ul>
+        <li><strong>Account Identifier:</strong> Your Firebase Cloud Authentication UID and associated session tokens.</li>
+        <li><strong>Game Progress Data:</strong> Highest level unlocked, level completion stars, and mid-level progress.</li>
+        <li><strong>Virtual Currency & Items:</strong> Coin balances, hints, lives, life refills, and cosmetic arrow shop unlocks.</li>
+        <li><strong>Game Preferences:</strong> Saved audio, haptic, and theme settings.</li>
+      </ul>
+
+      <h2>What Data Is Retained?</h2>
+      <p>
+        <strong>None.</strong> We do not retain any personal data or gameplay records after your deletion request is completed. 
+        If required by applicable financial laws, anonymized transactional logs for in-app purchases processed through Google Play may be maintained by Google Play according to Google's standard retention schedules.
+      </p>
+
+      <h2>Deletion Timeframe</h2>
+      <p>
+        • <strong>In-App / Device Deletion:</strong> Immediate upon selecting delete or uninstalling the app.<br>
+        • <strong>Cloud / Server Deletion:</strong> Requests sent to <code>support@alienxsoftware.com</code> are processed and permanently purged from our Firebase Firestore database within <strong>30 days</strong> (typically within 48 to 72 hours).
+      </p>
+
+      <h2>Need Help?</h2>
+      <p>
+        If you have any questions regarding your data or our deletion process, please contact us at 
+        <a href="mailto:support@alienxsoftware.com">support@alienxsoftware.com</a>.
+      </p>
+
+      <p style="margin-top: 32px;">
+        <a href="index.html">← Back to Arrow Shift home</a> · 
+        <a href="privacy-policy.html">View Privacy Policy</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Arrow Shift</strong><br>
+        © 2026 Alien X Software
+      </div>
+      <div>
+        <a href="index.html">Home</a> ·
+        <a href="privacy-policy.html">Privacy Policy</a> ·
+        <a href="delete-account.html">Delete Account</a> ·
+        <a href="https://play.google.com/store/apps/details?id=com.alienx.arrowshift" target="_blank" rel="noopener">Google Play</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function sendDeletionEmail() {
+      const uid = document.getElementById('uidInput').value.trim() || '[Your UID from Settings or Not Applicable]';
+      const subject = encodeURIComponent('Arrow Shift Account and Data Deletion Request');
+      const body = encodeURIComponent(
+        'Hello Alien X Software Support Team,\n\n' +
+        'I am requesting the permanent deletion of my Arrow Shift account and all associated gameplay data stored in your servers.\n\n' +
+        'App Name: Arrow Shift (com.alienx.arrowshift)\n' +
+        'User UID: ' + uid + '\n\n' +
+        'Please confirm once my account and cloud data have been completely deleted.\n\n' +
+        'Thank you.'
+      );
+      window.location.href = 'mailto:support@alienxsoftware.com?subject=' + subject + '&body=' + body;
+    }
+  </script>
+</body>
+</html>

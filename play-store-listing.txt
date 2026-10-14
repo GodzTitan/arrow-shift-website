@@ -38,10 +38,13 @@ Tap an arrow to slide it out of the grid. If its path is blocked, you lose a lif
 Developed by Alien X Software.
 
 WEBSITE
-https://gxdevs.blogspot.com/p/arrow-shift.html
+https://arrow-shift.pages.dev/
 
 PRIVACY POLICY URL
-https://gxdevs.blogspot.com/p/arrow-shift-privacy-policy.html
+https://arrow-shift.pages.dev/privacy-policy.html
+
+ACCOUNT & DATA DELETION URL (Play Console Data Safety)
+https://arrow-shift.pages.dev/delete-account.html
 
 CONTACT
-Use Google Play developer contact email in Play Console.
+support@alienxsoftware.com (or use developer contact email in Play Console)
